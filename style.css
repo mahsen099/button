@@ -1,0 +1,122 @@
+* {
+    margin: 10px;
+    padding: 0;
+    font-family: 'Verdana Pro' !important;
+  }
+  button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+button{
+  text-transform: uppercase;
+}
+  .primary {
+      min-width: 150px;
+    background-color:#55799B;
+	border-radius:30px;
+	border:1px solid #55799B;
+	cursor:pointer;
+	font-size:16px;
+	padding:10px 20px;
+  } 
+  .primary a{
+    text-decoration: none;
+    color:#ffffff;
+  }
+  .primary:hover {
+	background-color:#446688;
+} 
+.secondary {
+    min-width: 150px;
+    background-color:#ffffff;
+  border-radius:30px;
+  border:1px solid #55799B;
+  cursor:pointer;
+  font-size:16px;
+  padding:10px 20px;
+} 
+.secondary a{
+  text-decoration: none;
+  color:#55799B;
+}
+.secondary a:hover {
+  color:#446688;
+} 
+.secondary:hover {
+    border:1px solid #446688;
+  } 
+  .alternate {
+    min-width: 150px;
+  background-color:#FFB500;
+  border-radius:30px;
+  border:1px solid #FFB500;
+  cursor:pointer;
+  font-size:16px;
+  padding:10px 20px;
+} 
+.alternate a{
+  text-decoration: none;
+  color:#262626;
+}
+.alternate:hover {
+  background-color:#FFA500;
+} 
+.reverse {
+    min-width: 150px;
+  background-color:white;
+  border-radius:30px;
+  border:1px solid white;
+  cursor:pointer;
+  font-size:16px;
+  padding:10px 20px;
+} 
+.reverse a{
+  text-decoration: none;
+  color:#55799B;
+}
+.reverse:hover {
+  background-color:#F7F7F7;
+} 
+.reverse-color{
+    max-width: 200px;
+    background-color: #494d4f;
+}
+.borderless {
+    min-width: 150px;
+  cursor:pointer;
+  font-size:16px;
+  padding:10px 20px;
+} 
+.borderless a{
+  text-decoration: none;
+  color:#55799B;
+}
+.borderless:hover {
+text-decoration: underline;
+}
+  .borderless a:after {
+    font-family: FontAwesome;
+    content: "\f054";
+    font-size: 1em;
+    color:#55799B;
+    padding-left:5px
+}
+.borderless a:after:hover {
+    color:#446688;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
