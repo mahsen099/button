@@ -93,6 +93,7 @@ background-color:#F7F7F7;
 .borderless {
   min-width: 150px;
 cursor:pointer;
+margin-left: -24px;
 font-size:16px;
 font-weight: 600;
 padding:10px 20px;
